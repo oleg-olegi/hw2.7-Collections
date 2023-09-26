@@ -8,6 +8,6 @@ public class Main {
         Employee olegTinkov = new Employee("Oleg", "Tinkov", 4, 10000);
         employeeBook.addNewEmployee(ivanPetroff);
         employeeBook.addNewEmployee(olegTinkov);
-        employeeBook.minSalaryEmployee();
+        employeeBook.printAllDepartmentsAndNames();
     }
 }
